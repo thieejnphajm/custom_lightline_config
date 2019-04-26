@@ -35,3 +35,5 @@ function! MyFilename()
   return ('' != MyReadonly() ? MyReadonly() . ' ' : '') .
        \ ('' != expand('%') ? expand('%') : '[NoName]')
 endfunction
+
+colorscheme gruvbox
