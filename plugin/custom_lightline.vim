@@ -2,10 +2,10 @@ let g:lightline = {
       \ 'colorscheme': 'gruvbox',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
-      \             [ 'fugitive', 'readonly', 'filename', 'modified' ] ]
+      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
       \ },
       \ 'component_function': {
-      \   'fugitive': 'MyFugitive',
+      \   'gitbranch': 'FugitiveHead',
       \   'readonly': 'MyReadonly',
       \   'filename': 'MyFilename',
       \ },
