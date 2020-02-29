@@ -7,4 +7,4 @@ for i in {0..255}; do
 done
 ```
 
-~[ColorChart](https://i.stack.imgur.com/e63et.png)
+![ColorChart](https://i.stack.imgur.com/e63et.png)
